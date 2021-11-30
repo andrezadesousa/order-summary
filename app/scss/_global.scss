@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+header {
+    background-image: url('/app/images/pattern-background-desktop.svg');
+    background-color: $paleBlue;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    width: 450px;
+    height: 700px;
+    background-color: $paleBlue2;
+    border-radius: 20px;
+}
+
+.banner-card img{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.profile-content {
+    width: 350px;
+    height: 380px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-text h1 {
+    color: $darkBlue;
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.card-text p {
+    color:$desaturatedBlue;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+.card-play {
+    width: 350px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $verypaleBlue;
+}
+
+.card-play img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.card-play a {
+    color:  $brightBlue;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.card-play a:hover {
+    text-decoration: none;
+    color: $mediumBlue;
+}
+
+.card-plan {
+    margin-right: 80px;
+}
+
+.card-plan h1 {
+    color: $darkBlue;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.card-plan p {
+    color:$desaturatedBlue;
+    margin-top: 5px;
+}
+
+input {
+    width: 100%;
+    background-color: $brightBlue;
+    border: none;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 15px;
+    box-shadow: 0px 20px 25px $desaturatedBlue;
+}
+input:hover{
+    background-color: $mediumBlue;
+}
+
+.cancel-order {
+    color: $desaturatedBlue;
+    font-weight: 700;
+    text-decoration: none;
+}
+.cancel-order:hover {
+    color: $darkBlue;
+}
